@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Webpage Heading Scraper - Results</title>
+</head>
+<body>
+    <h1>Webpage Heading Scraper - Results</h1>
+    <h2>URL: {{ url }}</h2>
+
+    <!-- Display scraped headings -->
+    <ul>
+        {% for heading in headings %}
+        <li>{{ heading }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
